@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "384806470522",
+    "firebase_url": "https://vrv-event-planners-819e7-default-rtdb.firebaseio.com",
+    "project_id": "vrv-event-planners-819e7",
+    "storage_bucket": "vrv-event-planners-819e7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:384806470522:android:7132881f3da38e6fd48cc3",
+        "android_client_info": {
+          "package_name": "com.example.vrveventplanners"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "384806470522-l2eojsl1ibdv4scfdcvunndc1mmqli2i.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.vrveventplanners",
+            "certificate_hash": "b77182896602943d212fbd500e4f7dbc18e19b02"
+          }
+        },
+        {
+          "client_id": "384806470522-vn9h5b862p5i4b9bq49863cq4jts8e5b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDhWBRaV3yswJjmnr8k7Jk4EDXA5s00IlA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "384806470522-vn9h5b862p5i4b9bq49863cq4jts8e5b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

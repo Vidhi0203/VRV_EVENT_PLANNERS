@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SelectEvent"
+    android:orientation="vertical"
+    android:background="@drawable/pbg">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SELECT EVENT!"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:layout_gravity="center"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="@dimen/_20sdp">
+        <ImageView
+            android:id="@+id/wed"
+            android:layout_width="@dimen/_200sdp"
+            android:layout_height="@dimen/_170sdp"
+            android:background="@drawable/wed"
+            android:layout_weight="1"/>
+
+        <ImageView
+            android:id="@+id/birthday"
+            android:layout_width="@dimen/_200sdp"
+            android:layout_height="@dimen/_170sdp"
+            android:background="@drawable/birthday"
+            android:layout_weight="1"/>
+    </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="@dimen/_5sdp">
+            <TextView
+                android:id="@+id/Wedding"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Wedding"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:layout_weight="1"
+                android:gravity="center"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Birthday!"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:layout_weight="1"
+                android:gravity="center"/>
+        </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="@dimen/_5sdp">
+        <ImageView
+            android:id="@+id/baby"
+            android:layout_width="@dimen/_200sdp"
+            android:layout_height="@dimen/_170sdp"
+            android:background="@drawable/baby"
+            android:layout_weight="1"
+            android:layout_marginEnd="@dimen/_5sdp"/>
+
+        <ImageView
+            android:layout_marginStart="@dimen/_2sdp"
+            android:id="@+id/party"
+            android:layout_width="@dimen/_200sdp"
+            android:layout_height="@dimen/_170sdp"
+            android:background="@drawable/party"
+             android:layout_weight="1"/>
+    </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="@dimen/_5sdp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Baby Shower!"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:layout_weight="1"
+                android:gravity="center"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Party!"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:layout_weight="1"
+                android:gravity="center"/>
+        </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="@dimen/_5sdp">
+        <ImageView
+            android:id="@+id/cop"
+            android:layout_width="@dimen/_200sdp"
+            android:layout_height="@dimen/_170sdp"
+            android:background="@drawable/cop"
+            android:layout_weight="1"/>
+
+        <ImageButton
+            android:id="@+id/festival"
+            android:layout_width="@dimen/_200sdp"
+            android:layout_height="@dimen/_170sdp"
+            android:background="@drawable/festival"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginVertical="@dimen/_5sdp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Corporate Party!"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:layout_weight="1"
+                android:gravity="center"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Festival Party!"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:layout_weight="1"
+                android:gravity="center"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

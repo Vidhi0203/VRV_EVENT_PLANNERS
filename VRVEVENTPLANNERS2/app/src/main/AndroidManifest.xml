@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.vrveventplanners">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.VRVEVENTPLANNERS">
+        <activity
+            android:name=".DestinationActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".SplashActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Register"
+            android:exported="true">
+
+            <!-- <intent-filter> -->
+            <!-- <action android:name="android.intent.action.MAIN" /> -->
+
+
+            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+            <!-- </intent-filter> -->
+        </activity>
+        <activity
+            android:name=".Feedback"
+            android:exported="false" />
+        <activity
+            android:name=".Wfm5"
+            android:exported="false" />
+        <activity
+            android:name=".Wfm4"
+            android:exported="false" />
+        <activity
+            android:name=".Wfm3"
+            android:exported="false" />
+        <activity
+            android:name=".Wfm2"
+            android:exported="false" />
+        <activity
+            android:name=".Wfm1"
+            android:exported="false" />
+        <activity
+            android:name=".wedtheme2"
+            android:exported="false" />
+        <activity
+            android:name=".wedtheme"
+            android:exported="false" />
+        <activity
+            android:name=".weddingfunctions"
+            android:exported="false" />
+        <activity
+            android:name=".SelectEvent"
+            android:exported="false" />
+        <activity
+            android:name=".sangeet"
+            android:exported="false" />
+        <activity
+            android:name=".Reception"
+            android:exported="false" />
+        <activity
+            android:name=".Photographer"
+            android:exported="false" />
+        <activity
+            android:name=".partytheme"
+            android:exported="false" />
+        <activity
+            android:name=".mehndi"
+            android:exported="false" />
+        <activity
+            android:name=".login"
+            android:exported="false" />
+        <activity
+            android:name=".inout"
+            android:exported="false" />
+        <activity
+            android:name=".haldi"
+            android:exported="false" />
+        <activity
+            android:name=".festivaltheme"
+            android:exported="false" />
+        <activity
+            android:name=".dj"
+            android:exported="false" />
+        <activity
+            android:name=".destination"
+            android:exported="false" />
+        <activity
+            android:name=".corporatetheme"
+            android:exported="false" />
+        <activity
+            android:name=".caterer"
+            android:exported="false" />
+        <activity
+            android:name=".bookorder"
+            android:exported="false" />
+        <activity
+            android:name=".birthdaytheme"
+            android:exported="false" />
+        <activity
+            android:name=".birthday"
+            android:exported="false" />
+        <activity
+            android:name=".babytheme"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+
+            <!-- <intent-filter> -->
+            <!-- <action android:name="android.intent.action.MAIN" /> -->
+
+
+            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+            <!-- </intent-filter> -->
+        </activity>
+    </application>
+
+</manifest>
